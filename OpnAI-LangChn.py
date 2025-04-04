@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain import PromptTemplate
-from langchain.llms import OpenAI
+from langchain_community.llms import OpenAI
 template = """
 	Below is an email that may be poorly worded.
 	Your goal is to:
